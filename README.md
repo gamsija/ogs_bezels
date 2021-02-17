@@ -1,5 +1,9 @@
 # 시작하기전에
-이 베젤 파일은 하드커널사의 ODROID GO SUPER 장비에서 EmuELEC 펌웨어 사용자를 위한 파일입니다
+이 베젤 파일은 하드커널사의 ODROID GO SUPER 사용자를 위한 파일입니다
+
+베젤 설정 파일과 베젤 파일들은 EmuELEC 펌웨어 기준으로 업로드되어 있습니다.
+다른 펌웨어(OS)에서는 해당 OS에 맞는 위치에 복사하시면 사용가능합니다.
+
 
 # 설치방법
 
@@ -7,7 +11,9 @@
     /root/storage 디렉토리는 /storage 에 디렉토리에 복사
     /root/tmo 디렉토리는 /tmp에 복사한다.
     
-# 게임 적용 방법
+# 게임 적용 방법 (기본 EmuELEC)
+
+[ 펌웨어 ] https://github.com/EmuELEC/EmuELEC/releases
 
 1. 게임별 베젤이 적용되는 순서는
    1) /storage/.config/retroarch/config/{ 코어 }/{ 게임시스템 }.cfg 설정 파일을 읽고
@@ -39,6 +45,10 @@
    - 적용될 베젤
    
 ![Gameboy 3x크기의 베젤 이미지](/root/storage/roms/bezels/gb/default.png)
+
+# RetroArena 펌웨어 적용방법
+
+[ 펌웨어 ] https://techtoytinker.com/odroid-go-advance
 
 
 # 스크린샷
