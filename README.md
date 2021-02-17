@@ -41,5 +41,35 @@
 ![Gameboy 3x크기의 베젤 이미지](/root/storage/roms/bezels/gb/default.png)
 
 
+# 스크린샷
+
+* Nintendo Gameboy
+
+![gb 스크린샷](/screenshots/b-gb.png)
+
+
+* Nintendo Gameboy Color
+
+![gbc 스크린샷](/screenshots/b-gbc.png)
+
+
+* Nintendo Gameboy Adcanced
+
+![gba 스크린샷](/screenshots/b-gba.png)
+
+
+* SNK NeoGeo Pocket Color
+
+![ngpc 스크린샷](/screenshots/b-ngpc.png)
+
+
+* SEGA Game Gear
+
+![gb 스크린샷](/screenshots/b-gg.png)
+
+
+
+
+
 
    
