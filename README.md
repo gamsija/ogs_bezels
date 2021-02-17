@@ -29,8 +29,12 @@
    
 
 예제) Nintendo Gameboy인 경우
-   1) /storage/.config/retroarch/config/Gambatte/**gb.cfg**
-   2) /storage/roms/bezels/**gb/default.cfg**
+>
+>   1) /storage/.config/retroarch/config/Gambatte/**gb.cfg**
+>   2) /storage/.config/retroarch/config/Gambatte/**gb.glslp**   // 세이더를 적용하고자 할때 같이 복사  
+>   3) /storage/roms/bezels/**gb/default.cfg**
+>   4) /storage/roms/bezels/**gb/default.png**
+>
 
    - 적용될 베젤
    
