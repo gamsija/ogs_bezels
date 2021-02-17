@@ -29,7 +29,7 @@
    2) /storage/roms/bezels/**gb/default.cfg**
 
    - 적용될 베젤
-![](root/stroage/roms/bezels/gb/default.png)
+![Gameboy 3x크기의 베젤 이미지](/root/storage/roms/bezels/gb/default.png)
 
 
 
