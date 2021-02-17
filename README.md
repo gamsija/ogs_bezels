@@ -12,13 +12,17 @@
 1. 게임별 베젤이 적용되는 순서는
    1) /storage/.config/retroarch/config/{ 코어 }/{ 게임시스템 }.cfg 설정 파일을 읽고
    2) /storage/roms/bezels/{ 게임시스템에서 지정한 파일명 }.cfg 베젤 설정 파일을 읽어 베젤을 표시한다.
-
+   3) /storage/.config/retroarch/config/{ 코어 }/{ 게임시스템 }.glslp 
+      세이더 프리셋 파일이 존재하면 세이더 설정파일을 읽어 세이더를 표시한다
+      
 참고) 1)에서 코어별 지원하는 시스템은 retroarch 홈페이지에서 코어별 도큐먼트를 참고한다
    Nintendo Gameboy를 돌리는 코어인 Gambtte인 경우 
    https://docs.libretro.com/library/gambatte/ 페이지를 보면
    
+   >
    > Emulated hardware (restart) [gambatte_gb_hwmode] (Auto|GB|GBC|GBA)
-   
+   >
+
    총 3개의 시스템을 지원한다고 되어 있다. 
    따라서 { 게임시스템 }.cfg는 해당 시스템 gb.cfg, gbc.cfg, gba.cfg 와 같이 작성하면 된다.
    Gameboy 베젤을 설정하여면 { 게임시스템 }.cfg는 gb.cfg가 된다.
