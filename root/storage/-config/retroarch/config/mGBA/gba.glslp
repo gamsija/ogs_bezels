@@ -1,0 +1,6 @@
+shaders = "1"
+shader0 = "/storage/roms/bezels/shaders/lcd3x.glsl"
+
+#shader0 = "/tmp/shaders/shaders_glsl/handheld/shaders/gb-palette/gb-palette.glsl"
+#shader1 = "/tmp/shaders/shaders_glsl/handheld/shaders/lcd3x.glsl"
+#COLOR_PALETTE = "/tmp/shaders/shaders_glsl/handheld/shaders/gb-palette/resources/palette-light.png"
