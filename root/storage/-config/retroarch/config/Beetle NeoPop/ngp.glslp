@@ -2,4 +2,5 @@
 #        NeoGeo Pocket 세이더 설정 
 # =======================================
 
-#reference "../../shaders/shaders_glsl/handheld/lcd3x.glslp"
+shaders = "1"
+shader0 = "/storage/roms/bezels/shaders/lcd3x.glsl"
