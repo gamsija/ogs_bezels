@@ -1,0 +1,3 @@
+shaders = "1"
+#shader0 = "/storage/roms/bezels/shaders/lcd3x.glsl"
+shader0 = "/storage/roms/bezels/shaders/zfast_crt.glsl"

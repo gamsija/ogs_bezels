@@ -210,6 +210,15 @@ video_shader_dir = "/tmp/shaders/"
 ![gb 스크린샷](/screenshots/b-gg.png)
 
 
+* BANDAI WonderSwan
+
+![gb 스크린샷](/screenshots/b-wonderswan.png)
+
+
+* BANDAI WonderSwan Color
+
+![gb 스크린샷](/screenshots/b-wonderswancolor.png)
+
 
 
 
