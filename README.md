@@ -19,7 +19,7 @@
    3) /storage/.config/retroarch/config/{ 코어 }/{ 게임시스템 }.glslp 
       세이더 프리셋 파일이 존재하면 세이더 설정파일을 읽어 세이더를 표시한다
       
-참고) 
+~~참고) 
    코어별 지원하는 시스템은 retroarch 홈페이지에서 코어별 도큐먼트를 참고한다
    Nintendo Gameboy를 돌리는 코어인 Gambtte인 경우 
    https://docs.libretro.com/library/gambatte/ 페이지를 보면
@@ -30,7 +30,7 @@
 
    총 3개의 시스템을 지원한다고 되어 있다. 
    따라서 { 게임시스템 }.cfg는 해당 시스템 gb.cfg, gbc.cfg, gba.cfg 와 같이 작성하면 된다.
-   Gameboy 베젤을 설정하여면 { 게임시스템 }.cfg는 gb.cfg가 된다.
+   Gameboy 베젤을 설정하여면 { 게임시스템 }.cfg는 gb.cfg가 된다.~~
    
 ## 2. 코어별 시스템 설정 파일
    코어별 설정 파일은 { 코어 } / { 코어 }.cfg 파일로 저장된다
@@ -152,19 +152,24 @@ video_shader_dir = "/tmp/shaders/"
 베젤 설정 파일은 /storage/roms/bezels 디렉토리에 저장되어 있다.
 펌웨어 업데이트시 베젤 파일이 삭제되는 불상사를 방지하기 위한 위치 선정이다.
 
-// TODO.
+```
+overlays = 1  
+overlay0_overlay = default.png // cfg 파일과 같은 디렉토리에 베젤이미지를 저장한다
+overlay0_full_screen = true
+overlay0_descs = 0
+```
 
+**overlay0_overlay** 항목에 베젤 이미지 파일명을 넣는다. 보통 cfg파일과 같은 디렉토리에 넣기 때문에 경로없이 파일명만 적었는데 다른 위치에 있다면 Full Path로 입력한다
 
-
-
-
-
-
+나머지 항목들은 예제 값 그대로 유지한다.
 
  
 # 게임 적용 방법 (기본 EmuELEC)
 
 [ 펌웨어 ] https://github.com/EmuELEC/EmuELEC/releases
+
+OGS/EmuELEC 사용자는 /storage 아래에 있는 모든 파일을 장비에 /storage에 모두 복사하면 된다.
+모든 파일을 복사하면 되지만 꼭 복사해야할 파일들은 아래와 같다.
 
 예제) Nintendo Gameboy인 경우
 >
@@ -178,9 +183,13 @@ video_shader_dir = "/tmp/shaders/"
    
 ![Gameboy 3x크기의 베젤 이미지](/root/storage/roms/bezels/gb/default.png)
 
+
 # RetroArena 펌웨어 적용방법
 
 [ 펌웨어 ] https://techtoytinker.com/odroid-go-advance
+
+// TODO.
+
 
 
 # 스크린샷
@@ -212,12 +221,12 @@ video_shader_dir = "/tmp/shaders/"
 
 * BANDAI WonderSwan
 
-![gb 스크린샷](/screenshots/b-wonderswan.png)
+![wonderswan 스크린샷](/screenshots/b-wonderswan.png)
 
 
 * BANDAI WonderSwan Color
 
-![gb 스크린샷](/screenshots/b-wonderswancolor.png)
+![wonderswan color 스크린샷](/screenshots/b-wonderswancolor.png)
 
 
 
