@@ -8,8 +8,8 @@
 # 설치방법
 
 /root 디렉토리안에 있는 파일들을 OGS 장비에 복사한다
-    /root/storage 디렉토리는 /storage 에 디렉토리에 복사
-    /root/tmo 디렉토리는 /tmp에 복사한다.
+    /root/storage/-config 디렉토리는 /storage/.config 에 디렉토리에 복사
+    /root/storage/roms 디렉토리는 /storage/roms 에 복사한다.
 
 # 레트로아크에서 베젤 시스템 동작 방법
 
